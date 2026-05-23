@@ -6,15 +6,15 @@ async function generateQuote() {
     try{
         const response = await fetch('https://api.adviceslip.com/advice');
         const quoteJson = await response.json();
-        console.log(quoteJson)
+        console.log(quoteJson);
 
-        adviceNumber.textContent = `ADVICE # ${quoteJson.slip.id}` || 'UNABLE TO RETURN ID'
-        quote.textContent = `"${quoteJson.slip.advice}"`
-        generateQuoteButton.addEventListener("click", generateQuote)
+        adviceNumber.textContent = `ADVICE # ${quoteJson.slip.id}` || 'UNABLE TO RETURN ID';
+        quote.textContent = `"${quoteJson.slip.advice}"`;
         
-    }catch{
-
+    }catch(error){
+        console.log(error);
+        quote.textContent = "Error loading quote"
     }
 }
 
-generateQuote()
+generateQuoteButton.addEventListener("click", generateQuote);

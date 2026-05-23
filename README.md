@@ -23,7 +23,7 @@ Users should be able to:
 ## Links
 
 - Solution URL: _Add your Frontend Mentor solution link here_
-- Live Site URL: _Add your live website link here_
+- Live Site URL: [LIVE URL](https://victor-viktor.github.io/advice-slip-project/index.html)
 
 ---
 

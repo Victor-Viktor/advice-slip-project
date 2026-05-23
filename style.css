@@ -51,10 +51,6 @@ body{
 }
 
 @media (min-width: 475px){
-    .divider{
-        src: url(assets/pattern-divider-desktop.svg);
-    }
-
     .container{
         max-width: 500px;
     }
