@@ -25,28 +25,32 @@ body{
     border-radius: 8px;
 }
 
-#adviceNumber{
+.adviceNumber{
     color: #53FFAB;
     letter-spacing: 2px;
     font-size: small;
 }
 
-#quote{
+.quote{
     color: white;
     font-size: xx-large;
     padding: 20px 0 20px 0;
     text-align: center;
 }
 
-#generateQuoteButton{
+.generateQuoteButton{
     background-color: #53FFAB;
     padding: 20px;
     border-radius: 50%;
+    border: none;
     position: relative;
     top: 35px;
 }
-#generateQuoteButton:hover{
+.generateQuoteButton:hover{
     cursor: pointer;
+    box-shadow: 0px 0px 20px #53FFAB;
+}
+.generateQuoteButton:focus-visible{
     box-shadow: 0px 0px 20px #53FFAB;
 }
 

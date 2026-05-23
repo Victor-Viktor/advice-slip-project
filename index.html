@@ -9,12 +9,12 @@
 </head>
 <body>
     <div class="container">
-        <div id="adviceNumber">LOADING ADVICE</div>
-        <div id="quote">Your quote comes here!</div>
-        <img src="assets/pattern-divider-mobile.svg" alt="">
-        <div id="generateQuoteButton">
-            <img src="assets/icon-dice.svg" alt="">
-        </div>
+        <div class="adviceNumber" aria-live="polite">LOADING ADVICE</div>
+        <div class="quote" aria-live="polite">Your quote comes here!</div>
+        <img src="assets/pattern-divider-mobile.svg" alt="Lines that separate the quote from the quote generating button">
+        <button class="focusVisible generateQuoteButton">
+            <img src="assets/icon-dice.svg" alt="Get new advice">
+        </button>
     </div>
     <script src="index.js"></script>
 </body>

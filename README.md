@@ -16,13 +16,13 @@ Users should be able to:
 
 ### Screenshot
 
-![Project screenshot](./screenshots/screenshot.png)
+![Project screenshot](./assets/screenshots/screenshot.png)
 
 ---
 
 ## Links
 
-- Solution URL: _Add your Frontend Mentor solution link here_
+- Solution URL: [SOLUTION](https://www.frontendmentor.io/solutions/responsive-advice-generating-page-uoKIe9LKgf)
 - Live Site URL: [LIVE URL](https://victor-viktor.github.io/advice-slip-project/index.html)
 
 ---
