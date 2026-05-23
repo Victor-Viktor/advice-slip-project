@@ -52,7 +52,7 @@ body{
 
 @media (min-width: 475px){
     .divider{
-        src: url(pattern-divider-desktop.svg);
+        src: url(assets/pattern-divider-desktop.svg);
     }
 
     .container{
