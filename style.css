@@ -2,12 +2,16 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
+}
+html{
+    font-size: 62.5%;
 }
 body{
     background-color: #202632;
     font-family: Arial, Helvetica, sans-serif;
     height: 100vh;
-    padding: 20px;
+    padding: 2rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -20,42 +24,52 @@ body{
     
 
     background-color: #313A49;
-    box-shadow: 5px 5px 5px #313a496e;
-    padding:30px 20px 0 20px;
-    border-radius: 8px;
+    box-shadow: .5rem .5rem .5rem #313a496e;
+    padding:3rem 2rem 0 2rem;
+    border-radius: .8rem;
+    max-width: 50rem;
 }
 
 .adviceNumber{
     color: #53FFAB;
-    letter-spacing: 2px;
-    font-size: small;
+    letter-spacing: .2rem;
+    font-size: 1.3rem;
 }
 
 .quote{
     color: white;
-    font-size: xx-large;
-    padding: 20px 0 20px 0;
+    font-size: 3.5rem;
+    padding: 2rem 0 2rem 0;
     text-align: center;
+}
+
+.divider{
+    background-image: url(assets/pattern-divider-mobile.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 2rem;
 }
 
 .generateQuoteButton{
     background-color: #53FFAB;
-    padding: 20px;
+    padding: 2rem;
     border-radius: 50%;
     border: none;
     position: relative;
-    top: 35px;
+    top: 3.5rem;
 }
 .generateQuoteButton:hover{
     cursor: pointer;
-    box-shadow: 0px 0px 20px #53FFAB;
+    box-shadow: 0 0 2rem #53FFAB;
 }
 .generateQuoteButton:focus-visible{
-    box-shadow: 0px 0px 20px #53FFAB;
+    box-shadow: 0 0 2rem #53FFAB;
 }
 
-@media (min-width: 475px){
-    .container{
-        max-width: 500px;
+@media (min-width: 427px){
+    .divider{
+        background-image: url('assets/pattern-divider-desktop.svg');
+        background-repeat: no-repeat;
     }
 }
